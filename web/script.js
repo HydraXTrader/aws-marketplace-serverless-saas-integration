@@ -1,4 +1,4 @@
-const baseUrl = 'https://soeuz1d8ic.execute-api.ap-southeast-1.amazonaws.com/Prod/'; // TODO: This needs to be replaced
+const baseUrl = '	https://d2obctig3m3e0f.cloudfront.net/'; // TODO: This needs to be replaced if shift to cross-account route 53 usage
 const form = document.getElementsByClassName('form-signin')[0];
 
 const showAlert = (cssClass, message) => {

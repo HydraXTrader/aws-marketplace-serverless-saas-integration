@@ -1,3 +1,10 @@
+# For Hydrax only
+After connecting the 2 accounts with the cross account id
+
+1. Update MarketplaceFulfillmentUrl in the AWS marketplace portal to the new custom DNS name
+2. Update RedirectUrl in the web/script.js and upload to the S3 bucket to the new custom DNS name
+3. Update the lambda RedirectUrl to the new custom DNS name 
+
 # AWS Marketplace - Serverless integration for SaaS products (Example)
 
 ![](misc/banner.png)
