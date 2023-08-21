@@ -1,4 +1,5 @@
-const baseUrl = '	https://d2obctig3m3e0f.cloudfront.net/'; // TODO: This needs to be replaced if shift to cross-account route 53 usage
+// const baseUrl = 'https://d2obctig3m3e0f.cloudfront.net/'; // TODO: This needs to be replaced if shift to cross-account route 53 usage
+const baseUrl = 'https://exchange.hydrax.io'; // 
 const form = document.getElementsByClassName('form-signin')[0];
 
 const showAlert = (cssClass, message) => {
